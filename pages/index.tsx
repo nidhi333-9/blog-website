@@ -1,9 +1,10 @@
 import Head from "next/head";
-import Image from "next/image";
-import { Inter } from "@next/font/google";
-import styles from "../styles/Home.module.css";
 
-const inter = Inter({ subsets: ["latin"] });
+// import { Inter } from "@next/font/google";
+
+import Hero from "../components/Hero";
+import ExploreFeed from "../components/ExploreFeed";
+import Subscribe from "../components/Subscribe";
 
 export default function Home() {
   return (
@@ -24,7 +25,9 @@ export default function Home() {
         />
       </Head>
       <main>
-        <h1 className="font-bold text-3xl text-green-400">Hello Aryan</h1>
+        <Hero />
+        <ExploreFeed />
+        <Subscribe />
       </main>
     </>
   );
