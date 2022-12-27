@@ -9,14 +9,14 @@ import {
 
 function Hero() {
   return (
-    <div className="px-5 py-10 sm:py-28 flex flex-col sm:space-x-7 items-center sm:px-20 sm:flex-row ">
+    <div className="px-5 py-10 sm:py-28 flex flex-col sm:space-x-7 items-center sm:px-20 sm:flex-row md:mx-44">
       <div className="relative flex flex-row">
         <div className="h-auto">
           <Image
             src={Aryan}
             alt="writer"
             // height="auto"
-            width={500}
+            width={700}
             loading="lazy"
           ></Image>
         </div>
@@ -29,7 +29,7 @@ function Hero() {
       </div>
 
       <div className="my-5">
-        <p className=" font-Quantico text-xl md:text-3xl">
+        <p className=" font-Quantico text-base md:text-xl  text-justif">
           I like to explore new areas of life and share my experience with
           others through my articles.
         </p>

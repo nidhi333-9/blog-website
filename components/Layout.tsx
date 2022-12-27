@@ -7,7 +7,7 @@ interface Props {
 }
 function Layout({ children }: Props) {
   return (
-    <div className="mx-auto">
+    <div className="mx-auto ">
       <Navbar />
       {children}
       <Footer />

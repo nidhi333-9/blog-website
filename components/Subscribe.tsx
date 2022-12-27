@@ -3,10 +3,10 @@ import React from "react";
 function Subscribe() {
   return (
     <div className="bg-red-600 flex flex-col items-center justify-center font-Quantico p-3 md:p-23 md:py-24">
-      <h1 className="text-white text-3xl py-5">
+      <h1 className="text-white text-3xl py-5 text-center">
         Subscribe to Thrusday Newsletter
       </h1>
-      <p className="text-white text-xl">
+      <p className="text-white text-xl text-center">
         I started this newsletter with a mission to share my learning with
         readers and challenge myself to be better than yesterday.
       </p>
