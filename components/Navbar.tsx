@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React, { lazy } from "react";
 import Logo from "/public/logo.svg";
+import Link from "next/link";
 
 function Navbar() {
   return (
@@ -25,7 +26,9 @@ function Navbar() {
               Work
             </li>
             <li className="text-gray-500 hover:text-black hover:underline">
-              Book Club
+              <Link href="https://butternut-onyx-beb.notion.site/Avid-Book-Club-5696d518aef044c4b75572beeae70666">
+                Book Club
+              </Link>
             </li>
           </ul>
         </div>
