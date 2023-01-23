@@ -11,12 +11,21 @@ function Subscribe() {
         readers and challenge myself to be better than yesterday.
       </p>
       <div className="flex flex-col py-5">
-        <label htmlFor="text"></label>
+        {/* <label htmlFor="text"></label>
         <input
           type="text"
           className="border-none bg-red-600 active:border-none border-t-teal-400 my-10"
           placeholder="name"
-        />
+        /> */}
+        <div className="form-group">
+          <input
+            type="text"
+            name="your_name"
+            id="your_name"
+            required
+          />
+          <label>Your Name</label>
+        </div>
         <label htmlFor="text"></label>
         <input
           type="email"
